@@ -245,7 +245,7 @@ oilpalm:{n:"Oil palm",rain:[1200,1800,3000,4000],dry:[-1,0,2,4],tmax:[18,24,34,4
 maize:{n:"Maize",rain:[500,700,1500,2500],dry:[-1,0,5,8],tmax:[18,24,36,44],src:"tmax_wet",ph:[5,5.8,7.5,8.2],oc:[2,8,30,80],slope:[-1,0,12,25]},
 tomato:{n:"Tomato",rain:[300,500,1500,2500],dry:[-1,0,12,13],tmax:[16,24,33,41],src:"tmax_cool",ph:[5,6,7,8],oc:[3,8,30,80],slope:[-1,0,10,20]}
 };
-var NM={rain:"Annual rainfall",dry:"Dry monthss",tmax:"Temperature (max)",ph:"Soil pH",oc:"Organic carbon",slope:"Slope"};
+var NM={rain:"Annual rainfall",dry:"Dry months",tmax:"Temperature (max)",ph:"Soil pH",oc:"Organic carbon",slope:"Slope"};
 function fmt(n){return Math.round(n).toLocaleString("en")}
 function fx(q,lo){return q=="rain"?(lo?"irrigation":"drainage"):q=="dry"?"irrigation":q=="ph"?(lo?"liming":""):q=="oc"?"add organic matter":q=="slope"?"terracing":""}
 function gap(d,q){return(q=="ph"||q=="slope"||q=="dry"||q=="tmax"?d.toFixed(1):Math.round(d))+UN[q]}
