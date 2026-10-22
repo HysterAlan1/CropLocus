@@ -1,0 +1,1 @@
+LGAs checked: 774; crops checked: 8; class mismatches: 0; max score difference: 0.00000798

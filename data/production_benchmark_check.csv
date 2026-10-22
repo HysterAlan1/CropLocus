@@ -1,0 +1,4 @@
+year,crop,state,area_ha,production_mt,yield_mt_ha,benchmark_type,source,model_state_mean_score,model_area_pct_score_ge_0_5,interpretation
+2023,tomato,Kano,47496.2100,299452.9500,6.3000,state,"NAERLS/FMAFS 2023 Wet Season Agricultural Performance Survey, Table 12.9",0.9865,100.0000,small-n sanity check only; state production/yield is not a direct measure of biophysical suitability
+2023,tomato,Gombe,16316.9300,339858.6400,20.8300,state,"NAERLS/FMAFS 2023 Wet Season Agricultural Performance Survey, Table 12.9",0.9754,100.0000,small-n sanity check only; state production/yield is not a direct measure of biophysical suitability
+2023,cassava,Benue,411615.3000,4110238.0000,9.9900,state,"NAERLS/FMAFS 2023 Wet Season Agricultural Performance Survey, Table 12.13",0.9930,100.0000,small-n sanity check only; state production/yield is not a direct measure of biophysical suitability

@@ -1,0 +1,5 @@
+crop,status,train_years,test_year,n_train,n_test,MAE_t_ha,RMSE_t_ha,R2,baseline_RMSE_t_ha,warning
+cassava,EXPLORATORY_TEMPORAL_HOLDOUT,2010-2015,2018,214,441,7.378319176343845,9.441315007752143,-0.5235137364112221,7.912355640511004,Climate predictors are 2015-2024 summaries; not temporally matched to all survey years.
+maize,EXPLORATORY_TEMPORAL_HOLDOUT,2010-2015,2018,619,1991,1.5183411073150255,2.0493161919097695,-0.341570817157123,1.807845275208306,Climate predictors are 2015-2024 summaries; not temporally matched to all survey years.
+rice,EXPLORATORY_TEMPORAL_HOLDOUT,2010-2015,2018,143,453,1.8036348771986443,2.330870145123748,-0.05591809841015727,2.3940286298409155,Climate predictors are 2015-2024 summaries; not temporally matched to all survey years.
+sorghum,EXPLORATORY_TEMPORAL_HOLDOUT,2010-2015,2018,745,1239,0.9470805653658662,1.231681396917077,-0.24539761363283796,1.1038198280170193,Climate predictors are 2015-2024 summaries; not temporally matched to all survey years.

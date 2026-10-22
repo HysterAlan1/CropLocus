@@ -1,0 +1,10 @@
+CropLocus real-world yield validation audit
+GROW-Africa LSMS workbook rows: 195,152
+Nigeria rows: 12,361
+Selected target crops: maize, sorghum, rice, cassava
+Yield field used: YieldUsingGPS_ton_ha_ (derived using GPS area; ton/ha).
+Outlier policy: exclude values above crop-specific 99.5th percentile from primary model fit, but preserve them and flag them in nigeria_yield_observation_audit.csv. This is a screening choice, not proof the observations are erroneous.
+Spatial join: assign GPS coordinate to LGA polygon; if point not inside any polygon, nearest polygon centroid. Because source spatial precision can be 5 km, LGA assignments are approximate.
+Predictors: CropLocus LGA mean rainfall, dry months, hot/cool/wet-season max temperature, soil pH, organic carbon, slope. Environmental climate summaries are 2015-2024 and do not match all historical yield years.
+Validation: GroupKFold by assigned state, not a fully independent dataset; states can have different observation density. Temporal holdout diagnostic uses latest available year per crop but shares non-time-matched climate predictors.
+Not validated: tomato (no Nigerian records in this LSMS file), and any crop with insufficient states/records. No claim of 774-LGA yield accuracy.

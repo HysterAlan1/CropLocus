@@ -1,0 +1,4 @@
+year,crop,state,area_ha,production_mt,yield_mt_ha,benchmark_type,source
+2023,tomato,Kano,47496.21,299452.95,6.3,state,"NAERLS/FMAFS 2023 Wet Season Agricultural Performance Survey, Table 12.9"
+2023,tomato,Gombe,16316.93,339858.64,20.83,state,"NAERLS/FMAFS 2023 Wet Season Agricultural Performance Survey, Table 12.9"
+2023,cassava,Benue,411615.3,4110238.0,9.99,state,"NAERLS/FMAFS 2023 Wet Season Agricultural Performance Survey, Table 12.13"
